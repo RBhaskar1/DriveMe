@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{67855D90-4C96-4DEA-A68F-9F7AD8079B29}|Default">
-  <MonoDevelop.Ide.ItemProperties.DriveMe.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0DACCCE5-7F03-4397-B48A-9888E66B747B">
+  <MonoDevelop.Ide.ItemProperties.DriveMe.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.23344887-08ED-4EFC-BACD-342EA4DB1440">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.DriveMe.iOS>
   <MonoDevelop.Ide.Workbench />
@@ -8,5 +8,6 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.DriveMe.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
   <MultiItemStartupConfigurations />
 </Properties>

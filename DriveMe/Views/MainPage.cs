@@ -8,11 +8,16 @@ namespace DriveMe
     {
         public MainPage()
         {
-            Page itemsPage, aboutPage = null;
+            Page itemsPage, aboutPage, splashScreen = null;
 
             switch (Device.RuntimePlatform)
             {
                 case Device.iOS:
+                    splashScreen = new NavigationPage(new SplashScreen())
+                    {
+                        Title = "Splash"
+                    };
+
                     itemsPage = new NavigationPage(new ItemsPage())
                     {
                         Title = "Browse"
@@ -26,6 +31,11 @@ namespace DriveMe
                     aboutPage.Icon = "tab_about.png";
                     break;
                 default:
+                    splashScreen = new SplashScreen()
+                    {
+                        Title = "Splash"
+                    };
+
                     itemsPage = new ItemsPage()
                     {
                         Title = "Browse"
